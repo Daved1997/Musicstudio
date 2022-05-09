@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		@font-face{
+		    font-family: 'msyi';
+		    src:url(font/msyi.ttf);
+		    font-style: normal;
+		    font-weight: 100;
+		}
+		@font-face{
+		    font-family: 'taile';
+		    src:url(font/taile.ttf);
+		    font-style: normal;
+		    font-weight: 100;
+		}
+		@font-face{
+		    font-family: 'taileb';
+		    src:url(font/taileb.ttf);
+		    font-style: normal;
+		    font-weight: 100;
+		}
+
+		/***********content*************/
+		.content1{
+			height: 35vw;
+			width: 100%;
+			background-image: url(img/contentbg.jpg);
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+			margin-bottom: 5%;
+		}
+	</style>
+</head>
+<body>
+	<span onclick="topFunction()" id="myBtn" class="material-icons">navigation</span>
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="#">Home</a>
+		<a href="#about">About</a>
+		<a href="#services">Services</a>
+		<a href="#team">Team</a>		
+		<a href="#gallery">Gallery</a>
+		<a href="#contact">Contact</a>
+	</div>
+	<nav>
+	    <div class="logo"><img src="img/logo.png"></div>
+	    <div class="link">
+	    	<a href="#">HOME</a>
+	    	<a href="#about">ABOUT</a>
+	    	<a href="#services">SERVICES</a>
+	    	<a href="#team">TEAM</a>
+	    	<a href="#gallery">GALLERY</a>
+	    	<a href="#contact">CONTACT</a>
+	    </div>
+	    <span class="hampburger" onclick="openNav()">&#9776;</span>
+	</nav>
+	<section class="section1">
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+			  <img src="img/cont_2img_1.jpg">
+			  <div class="text1"><p>We can sing forever......</p></div>
+			</div>
+			<div class="mySlides fade">
+			  <img src="img/cont_2img_7.jpg">
+			  <div class="text1"><p>We can sing forever......</p></div>
+			</div>
+			<div class="mySlides fade">
+			  <img src="img/cont_2img_2.jpg">
+			  <div class="text1"><p>We can sing forever......</p></div>
+			</div>
+			<div class="mySlides fade">
+			  <img src="img/cont_2img_5.jpg">
+			  <div class="text1"><p>We can sing forever......</p></div>
+			</div>			
+			<div class="slideb">
+				  <span class="dot" onclick="currentSlide(1)"></span> 
+				  <span class="dot" onclick="currentSlide(2)"></span> 
+				  <span class="dot" onclick="currentSlide(3)"></span> 
+				  <span class="dot" onclick="currentSlide(4)"></span> 
+			</div>
+		</div>
+	</section>
+	<section class="section2" id="gallery">
+		<div class="heading">
+			<p>Gallery</p>
+			<div class="line"></div>
+		</div>
+		<div class="content1">
+			<div class="cont_1">
+				<div class="cont_1img">
+					<img src="img/cont_1img_1.png">
+						<div class="overlay">
+	    					<div class="text">Hello World</div>
+	    				</div>
+				</div>
+				<div class="cont_1img">
+					<img src="img/cont_1img_2.png">
+						<div class="overlay">
+	    					<div class="text">Hello World</div>
+	    				</div>
+				</div>
+				<div class="cont_1img">
+					<img src="img/cont_1img_3.png">
+						<div class="overlay">
+	    					<div class="text">Hello World</div>
+						</div>
+				</div>				
+			</div>
+		</div>
+		<div class="content2">
+			<div class="cont2_1">
+				<div class="cont2_img">
+					<img src="img/cont_2img_6.jpg">
+						<div class="overlay2">
+	    					<div class="text2">Product Name<p>product description</p></div>
+						</div>
+				</div>
+				<div class="cont2_img">
+					<img src="img/cont_2img_2.jpg">
+						<div class="overlay2">
+	    					<div class="text2">Product Name<p>product description</p></div>
+						</div>
+				</div>
+				<div class="cont2_img">
+					<img src="img/cont_2img_4.jpg">
+						<div class="overlay2">
+	    					<div class="text2">Product Name<p>product description</p></div>
+						</div>
+				</div>
+				<div class="cont2_img">
+					<img src="img/cont_2img_8.jpg">
+						<div class="overlay2">
+	    					<div class="text2">Product Name<p>product description</p></div>
+						</div>
+				</div>
+			</div>
+			<div class="cont2_2">
+				<div class="cont2_img">
+					<img src="img/cont_2img_1.jpg">
+						<div class="overlay2">
+	    					<div class="text2">Product Name<p>product description</p></div>
+						</div>
+				</div>
+				<div class="cont2_img">
+					<img src="img/cont_2img_3.jpg">
+						<div class="overlay2">
+	    					<div class="text2">Product Name<p>product description</p></div>
+						</div>
+				</div>
+				<div class="cont2_img">
+					<img src="img/cont_2img_5.jpg">
+						<div class="overlay2">
+	    					<div class="text2">Product Name<p>product description</p></div>
+						</div>
+				</div>
+				<div class="cont2_img">
+					<img src="img/cont_2img_7.jpg">
+						<div class="overlay2">
+	    					<div class="text2">Product Name<p>product description</p></div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section3" id="services">
+		<div class="heading2">
+			<p>Services</p>
+			<div class="line2"></div>
+		</div>
+		<div class="sec3div">
+			<div class="sec3div1">
+				<img src="img/cont_2img_6.jpg">
+			</div>
+			<div class="sec3div2">
+				<h3>Services Prowide by us...</h3>
+				<p>Proin quam dolor, scelerisque non interdum vel, condimentum sit amet nibh. Nullam vitae rhoncus arcu, a vestibulum nisl. Nunc quis malesuada odio, ut semper mi. Ut ut gravida velit. Morbi tempor nulla dolor, eu ornare ipsum posuere sed. Vestibulum tristique, dolor eu luctus scelerisque, odio sem posuere justo, non semper eros diam et metus. Vestibulum a velit a tortor rutrum tempus. Praesent enim ligula, tempor sed leo a, congue auctor risus. Curabitur sed vulputate mauris.</p>
+			</div>
+		</div>
+	</section>
+	<section class="section4" id="team">
+		<div class="heading">
+			<p>Team</p>
+			<div class="line"></div>
+		</div>
+		<div class="slideshow2-container2">
+			<div class="mySlides2 fade">
+			  <img src="img/cont_2img_2.jpg">
+			  <div class="text3">
+			  	<h3>Artist Name</h3>
+			  	<p>Designation...</p>
+			  	<div class="sec4link">
+			  		<div class="sec4link_img"><img src="img/facebook_white.png"></div>
+			  		<div class="sec4link_img"><img src="img/instagram-white.png"></div>
+			  		<div class="sec4link_img"><img src="img/linkedin-white.png"></div>
+			  		<div class="sec4link_img"><img src="img/twitter-white.png"></div>			  		
+			  	</div>
+			  </div>
+			</div>
+			<div class="mySlides2 fade">
+			  <img src="img/cont_2img_1.jpg">
+			  <div class="text3">
+			  	<h3>Artist Name</h3>
+			  	<p>Designation...</p>
+			  	<div class="sec4link">
+			  		<div class="sec4link_img"><img src="img/facebook_white.png"></div>
+			  		<div class="sec4link_img"><img src="img/instagram-white.png"></div>
+			  		<div class="sec4link_img"><img src="img/linkedin-white.png"></div>
+			  		<div class="sec4link_img"><img src="img/twitter-white.png"></div>			  		
+			  	</div>
+			  </div>
+			</div>
+			<div class="mySlides2 fade">
+			  <img src="img/cont_2img_7.jpg">
+			  <div class="text3">
+			  	<h3>Artist Name</h3>
+			  	<p>Designation...</p>
+			  	<div class="sec4link">
+			  		<div class="sec4link_img"><img src="img/facebook_white.png"></div>
+			  		<div class="sec4link_img"><img src="img/instagram-white.png"></div>
+			  		<div class="sec4link_img"><img src="img/linkedin-white.png"></div>
+			  		<div class="sec4link_img"><img src="img/twitter-white.png"></div>			  		
+			  	</div>
+			  </div>
+			</div>
+			<div class="mySlides2 fade">
+			  <img src="img/cont_2img_5.jpg">
+			  <div class="text3">
+			  	<h3>Artist Name</h3>
+			  	<p>Designation...</p>
+			  	<div class="sec4link">
+			  		<div class="sec4link_img"><img src="img/facebook_white.png"></div>
+			  		<div class="sec4link_img"><img src="img/instagram-white.png"></div>
+			  		<div class="sec4link_img"><img src="img/linkedin-white.png"></div>
+			  		<div class="sec4link_img"><img src="img/twitter-white.png"></div>			  		
+			  	</div>
+			  </div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)"><-</a>
+			<a class="next" onclick="plusSlides(1)">-></a>
+		</div>
+	</section>
+	<section class="section5" id="about">
+		<div class="heading2">
+			<p>About</p>
+			<div class="line2"></div>
+		</div>
+		<div class="sec3div">
+			<div class="sec3div2" style="margin-left: 5%;">
+				<h3>About us...</h3>
+				<p>Proin quam dolor, scelerisque non interdum vel, condimentum sit amet nibh. Nullam vitae rhoncus arcu, a vestibulum nisl. Nunc quis malesuada odio, ut semper mi. Ut ut gravida velit. Morbi tempor nulla dolor, eu ornare ipsum posuere sed. Vestibulum tristique, dolor eu luctus scelerisque, odio sem posuere justo, non semper eros diam et metus. Vestibulum a velit a tortor rutrum tempus. Praesent enim ligula, tempor sed leo a, congue auctor risus. Curabitur sed vulputate mauris.</p>
+			</div>
+			<div class="sec3div1">
+				<img src="img/cont_2img_3.jpg">
+			</div>
+		</div>
+	</section>
+	<section class="section6" id="contact">
+		<div class="sec6imgbg"><img src="img/cont_2img_7.jpg"></div>		
+		<div class="sec6div1">			
+			<div class="heading">
+				<p style="color: white;">Contact</p>
+				<div class="line" style="background-color: white;"></div>
+			</div>
+			<div class="sec6div2">
+				<div class="form">
+					<div class="formdiv">
+						<input type="text" name="name" placeholder="Name">
+						<input type="text" name="num" placeholder="Mob. no.">
+						<input type="text" name="mail" placeholder="E-mail">
+						<input type="text" name="subject" placeholder="Subject">
+						<textarea placeholder="Massage..."></textarea>
+						<button class="submit">Submit</button>
+						<button class="clear">Clear</button>
+					</div>
+				</div>
+				<div class="contact">
+					<div class="cont1">
+						<p>Your Address</p>
+						<img src="img/map2.png">
+					</div>
+					<div class="cont1">
+						<p>Your Mail Address</p>
+						<img src="img/mail.png">
+					</div>
+					<div class="cont1">
+						<p>Your Calling Number</p>
+						<img src="img/phone.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="footer">
+		<p>Design by | Groom</p>
+	  	<div class="footerlink">
+	  		<div class="footerlink_img"><img src="img/facebook_white.png"></div>
+	  		<div class="footerlink_img"><img src="img/instagram-white.png"></div>
+	  		<div class="footerlink_img"><img src="img/linkedin-white.png"></div>
+	  		<div class="footerlink_img"><img src="img/twitter-white.png"></div>			  		
+	  	</div>
+	</section>
+
+
+<!--js-->
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.body.style.backgroundColor = "rgba(255,65,65,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var slides2 = document.getElementsByClassName("mySlides2");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  if (n > slides2.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides2.length}
+  for (i = 0; i < slides2.length; i++) {
+      slides2[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  slides2[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>
